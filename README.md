@@ -30,7 +30,7 @@ The main script automates the login process using browser automation.
 
 ### 🚀 Usage
 
-```bash
+
 git clone https://github.com/your-username/nmit-portal-gui.git
 cd nmit-portal-gui
 pip install -r requirements.txt
