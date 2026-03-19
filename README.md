@@ -1,86 +1,107 @@
-# 🚀 NMIT Parent Portal Auto Login (GUI)
+# 🚀 NMIT Parent Portal Auto Login
 
-A clean and simple desktop application that allows students to quickly log into the NMIT Parent Portal with saved profiles.
+A simple automation tool that allows students to quickly log into the NMIT Parent Portal without manually entering credentials every time.
 
----
+## 📌 Overview
 
-## ✨ Features
-
-* 🔐 Auto login to parent portal
-* 👤 Multiple user profiles (USN + DOB)
-* ⚡ One-click login
-* 💾 Local profile storage
-* 🖥️ Simple and clean GUI
-* 🎯 No need to enter details every time
+This project includes:
+- 🧠 Python automation script (core logic)
+- 💻 Desktop GUI application (Windows)
+- 📱 Android app (mobile version)
 
 ---
 
-## 📦 Requirements
+## 🧠 Python Script (Core)
 
-* Python 3.8+
-* Google Chrome installed
-* Internet connection
+The main script automates the login process using browser automation.
 
----
+### ✨ Features
 
-## ⚙️ Installation (Run from Source)
+- 🔐 Automatically logs into parent portal  
+- ⚡ Eliminates manual entry of USN and DOB  
+- 🌐 Uses browser automation (Selenium)  
+- 🎯 Works directly with the actual website  
 
-1. Clone the repository:
+### ⚙️ Requirements
+
+- Python 3.8+  
+- Google Chrome installed  
+- Internet connection  
+
+### 🚀 Usage
 
 ```bash
 git clone https://github.com/your-username/nmit-portal-gui.git
 cd nmit-portal-gui
-```
-
-2. Install dependencies:
-
-```bash
 pip install -r requirements.txt
-```
-
-3. Run the app:
-
-```bash
 python portal_app.py
-```
+
 
 ---
 
-## 🖥️ Download (Executable)
+## 💻 Desktop Application (GUI)
 
-👉 Go to **Releases** section and download:
+```markdown
+## 💻 Desktop Application (GUI)
 
-```
-NMIT Portal GUI.exe
-```
+A simple Windows app built on top of the automation script.
 
-No installation required. Just double-click and run.
+### ✨ Features
 
----
+- 👤 Multiple user profiles  
+- ⚡ One-click login  
+- 💾 Local storage  
+- 🖥️ Clean GUI  
 
-## 📁 File Structure
+### 📥 Download
 
-```
-portal_app.py       # Main application
+Download from the Releases section:
+
+- `NMIT Portal GUI.exe`
+
+## 📱 Android Application
+
+A lightweight mobile app for quick portal access.
+
+### ✨ Features
+
+- ⚡ Opens portal instantly  
+- 🔐 Auto-fills credentials  
+- 📱 Smooth mobile experience  
+
+### 📥 Download
+
+Download from the Releases section:
+
+- `app-arm64-v8a-release.apk`
+
+### 📲 Installation
+
+- Download APK  
+- Enable *Install from unknown sources*  
+- Install and open  
+
+## File Structure
+
+portal_app.py       # Core automation script
 profiles.json       # Stores user profiles locally
 icon.ico            # App icon
 requirements.txt    # Dependencies
-```
-
----
+AndroidApp/         # Android project files
+DesktopApp/         # Desktop build files
 
 ## 🔒 Privacy
 
-* All data (USN, DOB) is stored **locally on your device**
-* No data is sent to any external server
+- All data (USN, DOB) is stored locally on your device  
+- No data is sent to any external server  
 
 ---
 
 ## ⚠️ Notes
 
-* Works on Windows only (for .exe version)
-* Chrome must be installed
-* Portal session may expire, requiring re-login
+- Desktop app works on Windows only  
+- Chrome must be installed for automation  
+- Portal session may expire, requiring re-login  
 
 ---
 
