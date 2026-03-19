@@ -28,20 +28,15 @@ The main script automates the login process using browser automation.
 - Google Chrome installed  
 - Internet connection  
 
-### 🚀 Usage
+## 🚀 Usage
 
-
-git clone https://github.com/your-username/nmit-portal-gui.git
-cd nmit-portal-gui
-pip install -r requirements.txt
-python portal_app.py
-
+git clone https://github.com/your-username/nmit-portal-gui.git  
+cd nmit-portal-gui  
+pip install -r requirements.txt  
+python portal_app.py  
 
 ---
 
-## 💻 Desktop Application (GUI)
-
-```markdown
 ## 💻 Desktop Application (GUI)
 
 A simple Windows app built on top of the automation script.
@@ -57,7 +52,9 @@ A simple Windows app built on top of the automation script.
 
 Download from the Releases section:
 
-- `NMIT Portal GUI.exe`
+- NMIT Portal GUI.exe
+
+---
 
 ## 📱 Android Application
 
@@ -73,7 +70,7 @@ A lightweight mobile app for quick portal access.
 
 Download from the Releases section:
 
-- `app-arm64-v8a-release.apk`
+- app-arm64-v8a-release.apk
 
 ### 📲 Installation
 
@@ -81,14 +78,18 @@ Download from the Releases section:
 - Enable *Install from unknown sources*  
 - Install and open  
 
-## File Structure
+---
 
-portal_app.py       # Core automation script
-profiles.json       # Stores user profiles locally
-icon.ico            # App icon
-requirements.txt    # Dependencies
-AndroidApp/         # Android project files
-DesktopApp/         # Desktop build files
+## 📁 File Structure
+
+portal_app.py       # Core automation script  
+profiles.json       # Stores user profiles locally  
+icon.ico            # App icon  
+requirements.txt    # Dependencies  
+AndroidApp/         # Android project files  
+DesktopApp/         # Desktop build files  
+
+---
 
 ## 🔒 Privacy
 
