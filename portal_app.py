@@ -155,8 +155,8 @@ usn_entry.pack(pady=5, padx=10, fill="x")
 usn_entry.insert(0, "USN")
 
 day_var = tk.StringVar(value="1")
-month_var = tk.StringVar(value="July")
-year_var = tk.StringVar(value="2005")
+month_var = tk.StringVar(value="Jan")
+year_var = tk.StringVar(value="2000")
 
 tk.Entry(right, textvariable=day_var, bg="#2A2A2A", fg=TEXT, relief="flat").pack(pady=2, padx=10, fill="x")
 tk.Entry(right, textvariable=month_var, bg="#2A2A2A", fg=TEXT, relief="flat").pack(pady=2, padx=10, fill="x")
